@@ -6,7 +6,7 @@
     ⭐ Health is Wealth ⭐ <br>
 </h1>
 
-# # [`Demo video link `](https://drive.google.com/file/d/1TQzSmEQqLEIOYyRuhZOx1pW7gSi1frtu/view?usp=sharing) 
+# # [`Demo video link `][(https://drive.google.com/file/d/1TQzSmEQqLEIOYyRuhZOx1pW7gSi1frtu/view?usp=sharing)](https://drive.google.com/file/d/1-Wa1P9vVMpSC-VdWOD1FzvL8dZ_BQnZx/view?usp=sharing) 
 
 # Title: Human Disease Prediction Using Machine Learning 
 
