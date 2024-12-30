@@ -6,14 +6,23 @@
     ⭐ Health is Wealth ⭐ <br>
 </h1>
 
-# [`Demo video link `]([https://drive.google.com/file/d/1TQzSmEQqLEIOYyRuhZOx1pW7gSi1frtu/view?usp=sharing](https://drive.google.com/file/d/1-Wa1P9vVMpSC-VdWOD1FzvL8dZ_BQnZx/view?usp=sharing)) 
-Our prototype is a nutrition-focused website offering personalized diet planning, BMI calculation, and health issue-based food recommendations. It provides users with tailored recommendations based on their preferences and health status, enhancing their overall well-being.
+# [`Demo video link `](https://drive.google.com/file/d/1TQzSmEQqLEIOYyRuhZOx1pW7gSi1frtu/view?usp=sharing](https://drive.google.com/file/d/1-Wa1P9vVMpSC-VdWOD1FzvL8dZ_BQnZx/view?usp=sharing) 
+Title: Human Disease Prediction Using Machine Learning
 
-Prototype Functionality:
-- The prototype allows users to input their height, weight, and health preferences to receive personalized diet plans and BMI calculations. Additionally, it offers health issue-based food recommendations to address specific dietary needs, ensuring a comprehensive approach to nutrition management.
+This project focuses on developing a predictive model for diagnosing diseases based on user-provided symptoms using machine learning techniques. With the rapid advancements in AI and the increasing reliance on data-driven solutions, this system aims to bridge the gap between healthcare accessibility and technology.
+
+The core functionality revolves around users entering their symptoms through an intuitive graphical user interface (GUI). The system processes this input using the Random Forest algorithm, a robust and widely-used machine learning model known for its high accuracy in classification tasks. By leveraging pre-existing medical datasets, the model predicts the potential disease with impressive accuracy.
+
+Key features include:
+
+Ease of Use: Designed for non-technical users with a simple GUI for symptom input.
+High Accuracy: Utilizes the Random Forest algorithm for precise disease prediction.
+Accessibility: Enables users to get an initial diagnosis from the comfort of their home.
+Healthcare Support: Assists healthcare professionals by providing preliminary diagnostic suggestions.
+This project demonstrates the transformative impact of machine learning in the medical field, offering a cost-effective and efficient alternative for disease prediction. Future expansions include migrating the system to a web or mobile platform, integrating real-time data updates, and enhancing the model to cover a broader range of diseases.
 
 Demo Video Highlights:
-- Our team's narrated demo video showcases the entire project walkthrough, including detailed explanations of functionality, interactive features, and user interface design. It includes images, working demonstrations, code snippets, and a comprehensive overview of the project's capabilities.
+- Our team's narrated demo video showcases the entire project walkthrough, including detailed explanations of functionality, interactive features, and user interface design. It includes working demonstrations, code snippets, and a comprehensive overview of the project's capabilities.
 ## Team Details
 Team number : VH039
 
