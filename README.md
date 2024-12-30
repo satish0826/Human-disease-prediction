@@ -42,7 +42,9 @@ User Interface: Creating an interactive interface with Tkinter for users to inpu
 Prediction: The trained model processes input data and predicts the most probable disease.
 Output: Displaying the disease along with prediction accuracy.
 
+
 ## flowchart
+
 Start
 |
 |__ app.py
@@ -92,8 +94,7 @@ Start
                 |               |__ Recommendation Based on User's Health Issue
                 |
                 |__ End
-                 
-
+   
 ## Techstacks used 
 Programming Language: Python
 Libraries: NumPy, Pandas, Scikit-learn
