@@ -6,7 +6,7 @@
     ⭐ Health is Wealth ⭐ <br>
 </h1>
 
-# [Website link](http://www.google.com)  [`Demo video link `](https://drive.google.com/file/d/1TQzSmEQqLEIOYyRuhZOx1pW7gSi1frtu/view?usp=sharing) 
+# [`Demo video link `]([https://drive.google.com/file/d/1TQzSmEQqLEIOYyRuhZOx1pW7gSi1frtu/view?usp=sharing](https://drive.google.com/file/d/1-Wa1P9vVMpSC-VdWOD1FzvL8dZ_BQnZx/view?usp=sharing)) 
 Our prototype is a nutrition-focused website offering personalized diet planning, BMI calculation, and health issue-based food recommendations. It provides users with tailored recommendations based on their preferences and health status, enhancing their overall well-being.
 
 Prototype Functionality:
@@ -24,17 +24,6 @@ Team number : VH039
 | Y.S.V.N.Shankar | 99210042243@klu.ac.in |
 | K.Sai Srinivas | 9921004351@kli.ac.in |
 | V.Ajay | 99210042230@kli.ac.in |
-
-<div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/1.png?raw=true" alt="Image 1" style="width: 30%; margin: 5px;"> 
-    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/2.png?raw=true" alt="Image 2" style="width: 30%; margin: 5px;">
-    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/3.png?raw=true" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/4.png?raw=true" alt="Image 4" style="width: 30%; margin: 5px;">
-    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/5.png?raw=true" alt="Image 5" style="width: 30%; margin: 5px;">
-    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/6.png?raw=true" alt="Image 6" style="width: 30%; margin: 5px;">
-    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/7.png?raw=true" alt="Image 7" style="width: 30%; margin: 5px;">
-    <img src="https://github.com/HARSHAVINJAMURI/Hackathon/blob/main/Templates/8.png?raw=true" alt="Image 8" style="width: 30%; margin: 5px;">
-</div>
 
 ## Problem statement 
 Current healthcare systems rely heavily on physical consultations for disease diagnosis, which can be time-consuming and expensive. Existing diagnostic systems lack the capability to detect subtypes of diseases and often yield less accurate results. There is a need for a system that leverages Machine Learning to improve diagnostic accuracy, reduce dependency on in-person consultations, and provide quick and reliable predictions based on symptoms.
@@ -55,56 +44,43 @@ Output: Displaying the disease along with prediction accuracy.
 
 ## flowchart
 
-Start
-|
-|__ app.py
-    |
-    |__ Run app.py
-        |
-        |__ Output: Link to Website Home Page
-        |
-        |__ User Clicks Link
-            |
-            |__ Home Page
-                |
-                |__ Services Section
-                |   |
-                |   |__ Service 1: Diet Plan
-                |   |   |
-                |   |   |__ Learn More Button Clicked
-                |   |       |
-                |   |       |__ Diet Plan Page
-                |   |           |
-                |   |           |__ Explanation of Nutrition Diet Plan
-                |   |           |
-                |   |           |__ Recommendation Section
-                |   |               |
-                |   |               |__ User Selects Nutrition
-                |   |                   |
-                |   |                   |__ Recommendation Based on Selected Nutrition
-                |   |
-                |   |__ Service 2: BMI Calculator
-                |   |   |
-                |   |   |__ Learn More Button Clicked
-                |   |       |
-                |   |       |__ BMI Calculator Page
-                |   |           |
-                |   |           |__ User Inputs Height and Weight
-                |   |               |
-                |   |               |__ BMI Value Displayed
-                |   |
-                |   |__ Service 3: Recommendation
-                |       |
-                |       |__ Learn More Button Clicked
-                |           |
-                |           |__ Health Issue Recommendation Page
-                |               |
-                |               |__ Health Issues of Food Displayed
-                |               |
-                |               |__ Recommendation Based on User's Health Issue
-                |
-                |__ End
-  
+Start  
+|  
+|__ hack_0x.py 
+    |  
+    |__ Run hack_0x.py  
+        |  
+        |__ Output: A pop-up of human disease prediction  
+             |  
+             |__ Input Symptoms Section  
+                  |  
+                  |__ User Inputs Symptoms  
+                        |  
+                        |__ Click Predict Button  
+                            |  
+                            |__ Processing Symptoms  
+                                |  
+                                |__ ML Model Execution (Decision Tree) 
+   
+                                |__ ML Model Execution (Random Forest)  
+   
+                                |__ ML Model Execution (NaiveBayes)  
+   
+                                |__ ML Model Execution (KNearestNeighbour)
+                                    |  
+                                    |__ Output Displayed  
+                                        |  
+                                        |__ Predicted Disease  
+                                        |  
+                                        |__ Prediction Accuracy  
+                                        |  
+                                        |__ Recommendation Section  
+                                            |  
+                                            |__ User Views Recommendations  
+                                                |  
+                                                |__ Health Tips Based on Prediction  
+                                                    |  
+                                                    |__ End
 
 ## Techstacks used 
 Programming Language: Python
@@ -115,13 +91,10 @@ Framework: Tkinter for GUI
 detailed steps to run our project locally , example to run the application 
 - step 1 : Run python file 
 
-You will able to get a Pop-up link in the output section
+You will able to get a Pop-up in the tab section
 
-- step 2 : link navigation
-
-Open that link and start interact with our website
-
-- step 3 : diet plan section
+- step 2 : open it and fill it 
+ you need to fill and click on predict
 
 under services section we have diet plan section click on learn more, you will get the 
 
