@@ -45,56 +45,24 @@ Output: Displaying the disease along with prediction accuracy.
 
 ## flowchart
 
-Start
-|
-|__ app.py
-    |
-    |__ Run app.py
-        |
-        |__ Output: Link to Website Home Page
-        |
-        |__ User Clicks Link
-            |
-            |__ Home Page
-                |
-                |__ Services Section
-                |   |
-                |   |__ Service 1: Diet Plan
-                |   |   |
-                |   |   |__ Learn More Button Clicked
-                |   |       |
-                |   |       |__ Diet Plan Page
-                |   |           |
-                |   |           |__ Explanation of Nutrition Diet Plan
-                |   |           |
-                |   |           |__ Recommendation Section
-                |   |               |
-                |   |               |__ User Selects Nutrition
-                |   |                   |
-                |   |                   |__ Recommendation Based on Selected Nutrition
-                |   |
-                |   |__ Service 2: BMI Calculator
-                |   |   |
-                |   |   |__ Learn More Button Clicked
-                |   |       |
-                |   |       |__ BMI Calculator Page
-                |   |           |
-                |   |           |__ User Inputs Height and Weight
-                |   |               |
-                |   |               |__ BMI Value Displayed
-                |   |
-                |   |__ Service 3: Recommendation
-                |       |
-                |       |__ Learn More Button Clicked
-                |           |
-                |           |__ Health Issue Recommendation Page
-                |               |
-                |               |__ Health Issues of Food Displayed
-                |               |
-                |               |__ Recommendation Based on User's Health Issue
-                |
-                |__ End
-   
+1. Start.  
+2. Run the script hack_0x.py.  
+3. A pop-up appears for human disease prediction.  
+4. User inputs symptoms in the input section.  
+5. User clicks the "Predict" button.  
+6. The system processes the symptoms.  
+7. Multiple machine learning models execute for prediction:  
+   - Decision Tree  
+   - Random Forest  
+   - Naive Bayes  
+   - K-Nearest Neighbour  
+8. The system displays:  
+   - Predicted disease  
+   - Prediction accuracy  
+   - Recommendations based on the prediction.  
+9. User views health tips in the recommendations section.  
+10. End.
+    
 ## Techstacks used 
 Programming Language: Python
 Libraries: NumPy, Pandas, Scikit-learn
