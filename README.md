@@ -43,44 +43,56 @@ Prediction: The trained model processes input data and predicts the most probabl
 Output: Displaying the disease along with prediction accuracy.
 
 ## flowchart
-
-Start  
-|  
-|__ hack_0x.py 
-    |  
-    |__ Run hack_0x.py  
-        |  
-        |__ Output: A pop-up of human disease prediction  
-             |  
-             |__ Input Symptoms Section  
-                  |  
-                  |__ User Inputs Symptoms  
-                        |  
-                        |__ Click Predict Button  
-                            |  
-                            |__ Processing Symptoms  
-                                |  
-                                |__ ML Model Execution (Decision Tree) 
-   
-                                |__ ML Model Execution (Random Forest)  
-   
-                                |__ ML Model Execution (NaiveBayes)  
-   
-                                |__ ML Model Execution (KNearestNeighbour)
-                                    |  
-                                    |__ Output Displayed  
-                                        |  
-                                        |__ Predicted Disease  
-                                        |  
-                                        |__ Prediction Accuracy  
-                                        |  
-                                        |__ Recommendation Section  
-                                            |  
-                                            |__ User Views Recommendations  
-                                                |  
-                                                |__ Health Tips Based on Prediction  
-                                                    |  
-                                                    |__ End
+Start
+|
+|__ app.py
+    |
+    |__ Run app.py
+        |
+        |__ Output: Link to Website Home Page
+        |
+        |__ User Clicks Link
+            |
+            |__ Home Page
+                |
+                |__ Services Section
+                |   |
+                |   |__ Service 1: Diet Plan
+                |   |   |
+                |   |   |__ Learn More Button Clicked
+                |   |       |
+                |   |       |__ Diet Plan Page
+                |   |           |
+                |   |           |__ Explanation of Nutrition Diet Plan
+                |   |           |
+                |   |           |__ Recommendation Section
+                |   |               |
+                |   |               |__ User Selects Nutrition
+                |   |                   |
+                |   |                   |__ Recommendation Based on Selected Nutrition
+                |   |
+                |   |__ Service 2: BMI Calculator
+                |   |   |
+                |   |   |__ Learn More Button Clicked
+                |   |       |
+                |   |       |__ BMI Calculator Page
+                |   |           |
+                |   |           |__ User Inputs Height and Weight
+                |   |               |
+                |   |               |__ BMI Value Displayed
+                |   |
+                |   |__ Service 3: Recommendation
+                |       |
+                |       |__ Learn More Button Clicked
+                |           |
+                |           |__ Health Issue Recommendation Page
+                |               |
+                |               |__ Health Issues of Food Displayed
+                |               |
+                |               |__ Recommendation Based on User's Health Issue
+                |
+                |__ End
+                 
 
 ## Techstacks used 
 Programming Language: Python
